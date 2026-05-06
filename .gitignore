@@ -1,3 +1,9 @@
 node_modules/
 .DS_Store
 *.log
+
+# WorkBuddy 系统文件
+.workbuddy/
+
+# VitePress 构建输出
+website/docs/.vitepress/dist/

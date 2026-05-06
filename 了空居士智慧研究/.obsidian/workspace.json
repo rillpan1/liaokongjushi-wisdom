@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Wiki/50-概念资料/50-概念资料_INDEX.md",
+                "file": "02-Wiki/10-核心模型/model-天人合一.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "50-概念资料_INDEX"
+              "title": "model-天人合一"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-Wiki/50-概念资料/50-概念资料_INDEX.md",
+                "file": "02-Wiki/10-核心模型/model-天人合一.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "50-概念资料_INDEX 的反向链接列表"
+              "title": "model-天人合一 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-Wiki/50-概念资料/50-概念资料_INDEX.md",
+                "file": "02-Wiki/10-核心模型/model-天人合一.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "50-概念资料_INDEX 的出链列表"
+              "title": "model-天人合一 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-Wiki/50-概念资料/50-概念资料_INDEX.md",
+                "file": "02-Wiki/10-核心模型/model-天人合一.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "50-概念资料_INDEX 的大纲"
+              "title": "model-天人合一 的大纲"
             }
           }
         ]
@@ -183,8 +183,14 @@
       "bases:新建数据库": false
     }
   },
-  "active": "f8326eb3cca70536",
+  "active": "ed7aa967508bf690",
   "lastOpenFiles": [
+    "02-Wiki/10-核心模型/10-核心模型_INDEX.md",
+    "02-Wiki/10-核心模型/model-对法不执.md",
+    "02-Wiki/10-核心模型/model-对境不住.md",
+    "02-Wiki/10-核心模型/model-圆融中和.md",
+    "02-Wiki/10-核心模型/model-性命双修.md",
+    "02-Wiki/50-概念资料/50-概念资料_INDEX.md",
     "website/docs/50-概念资料/index.md",
     "website/docs/40-原话金句/index.md",
     "website/docs/30-学习路径/index.md",
@@ -205,12 +211,6 @@
     "website/docs/50-概念资料/dict-清净心.md",
     "website/docs/50-概念资料/dict-涅槃.md",
     "website/docs/50-概念资料/dict-法执.md",
-    "website/docs/50-概念资料/dict-止观.md",
-    "website/docs/50-概念资料/dict-无明.md",
-    "website/docs/50-概念资料/dict-无为.md",
-    "website/docs/50-概念资料/dict-我执.md",
-    "website/docs/50-概念资料/dict-形神俱妙.md",
-    "website/docs/50-概念资料/dict-平常心.md",
     "website/convert-links.js",
     "website/docs/99-运维",
     "website/docs/50-概念资料",
