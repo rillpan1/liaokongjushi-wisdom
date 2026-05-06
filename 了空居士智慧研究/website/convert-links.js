@@ -30,12 +30,14 @@ const prefixMap = {
 };
 
 function getFullPath(linkPath) {
-  // 如果已经是完整路径（包含 /），直接处理
-  if (linkPath.includes('/')) {
-    // 去掉 .md 扩展名
-    let clean = linkPath.replace(/\.md$/, '');
-    // 去掉前缀的 ../ 和目录引用
-    clean = clean.replace(/^(?:\.\.\/)*(?:10-核心模型|20-专题研究|30-学习路径|40-原话金句|50-概念资料|03-Output|99-运维|01-Raw-Sources)\//, '');
+  // 去掉 .md 扩展名
+  let clean = linkPath.replace(/\.md$/, '');
+  
+  // 如果已经是完整路径（包含 /），保留路径，只去掉 ../ 前缀
+  if (clean.includes('/')) {
+    // 移除开头的 ../ 目录回溯
+    clean = clean.replace(/^(?:\.\.\/)+/, '');
+    // 路径已包含 wiki 目录，直接返回
     return clean;
   }
   
