@@ -22,8 +22,9 @@ export default defineConfig({
       { text: '核心模型', link: '/10-核心模型/' },
       { text: '专题研究', link: '/20-专题研究/' },
       { text: '学习路径', link: '/30-学习路径/' },
-      { text: '原话金句', link: '/40-原话金句/' },
-      { text: '概念词典', link: '/50-概念资料/' },
+      { text: '金句', link: '/40-原话金句/' },
+      { text: '概念', link: '/50-概念资料/' },
+      { text: '关于', link: '/00-创始人/biography-了空居士' },
     ],
 
     sidebar: {

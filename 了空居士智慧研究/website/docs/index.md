@@ -1,246 +1,171 @@
+# 了空居士智慧研究 - Wiki 总索引
+
+> 本文件是整个 Wiki 的总目录，按五层结构组织。
+
 ---
-layout: home
-title: 首页
-sidebar: false
+
+## 项目概述
+
+**核心理念**：从原始文章"蒸馏"模型原子，聚类形成7个核心心智模型
+
+**7个核心模型**（从8篇核心文章、80个模型原子中蒸馏）：
+1. **天人合一**（世界观）— 人与宇宙能量一体，一切不永恒但因果不虚
+2. **清净心**（心法）— 心如明镜，不被现象所迷惑
+3. **无执**（破执）— 连佛法都要放下，何况世间法
+4. **自然务实**（方法论）— 直指人心，抓核心，在生活中落实
+5. **圆融中和**（处世）— 不偏不倚，因地制宜的智慧
+6. **历境炼心**（实践）— 在每一个细节上磨炼
+7. **性命双修**（功法）— 性命双修，既要明心也要修身
+
 ---
 
-<div class="hero-brand">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
-    <circle cx="24" cy="24" r="22" fill="#2c3e50"/>
-    <path d="M16 32V18l8 6 8-6v14" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  </svg>
-  <h1>了空居士智慧知识库</h1>
-  <p class="subtitle">系统性结构化智慧体系 · 125篇著述 · 200+模型原子 · 五层结构</p>
-  <p class="version">v1.0 · 持续更新中</p>
-</div>
+## 五层结构
 
-<div class="hero-tagline">
-  <p class="main">家庭是道场 · 生活即修行</p>
-  <p class="desc">了空居士融汇佛道精华，用最朴素的语言讲最深刻的道理。<br>这套知识库将125篇原始文章蒸馏为7大核心心智模型，覆盖生活各个维度。</p>
-</div>
+### 第一层：核心模型（骨架）
 
-<div class="stats-row">
-  <a href="/10-核心模型/" class="stat-card" style="text-decoration:none;">
-    <div class="number">7</div>
-    <div class="label">核心心智模型</div>
-  </a>
-  <a href="/20-专题研究/" class="stat-card" style="text-decoration:none;">
-    <div class="number">13</div>
-    <div class="label">专题研究报告</div>
-  </a>
-  <a href="/50-概念资料/" class="stat-card" style="text-decoration:none;">
-    <div class="number">25</div>
-    <div class="label">概念术语词典</div>
-  </a>
-  <a href="/40-原话金句/" class="stat-card" style="text-decoration:none;">
-    <div class="number">120+</div>
-    <div class="label">金句原话收录</div>
-  </a>
-</div>
+> 七个核心心智模型，每个由多个"模型原子"组成。
 
-<div class="entry-row">
-  <a href="/10-核心模型/" class="entry-card">
-    <span class="icon">🧠</span>
-    <span class="label">核心模型总览</span>
-    <span class="arrow">→</span>
-  </a>
-  <a href="/30-学习路径/" class="entry-card">
-    <span class="icon">🗺</span>
-    <span class="label">学习路径索引</span>
-    <span class="arrow">→</span>
-  </a>
-  <a href="/20-专题研究/" class="entry-card">
-    <span class="icon">📖</span>
-    <span class="label">专题研究索引</span>
-    <span class="arrow">→</span>
-  </a>
-  <a href="/50-概念资料/" class="entry-card">
-    <span class="icon">📚</span>
-    <span class="label">概念词典索引</span>
-    <span class="arrow">→</span>
-  </a>
-</div>
+**目录**：`10-核心模型/`
 
-<div class="ai-entry">
-  <a href="#" class="ai-entry-card" onclick="toggleAIPanel()">
-    <div class="left">
-      <span class="icon">🫖</span>
-      <span class="label">了空居士下午茶 — AI对话</span>
-    </div>
-    <span class="tag">BETA</span>
-  </a>
-</div>
+| 模型 | 文件 | 核心原子数 |
+|------|------|-----------|
+| 天人合一 | [model-天人合一](/10-核心模型/model-天人合一) | 9 |
+| 对境不住 | [model-对境不住](/10-核心模型/model-对境不住) | 16 |
+| 对法不执 | [model-对法不执](/10-核心模型/model-对法不执) | 18 |
+| 自然务实 | [model-自然务实](/10-核心模型/model-自然务实) | 16 |
+| 圆融中和 | [model-圆融中和](/10-核心模型/model-圆融中和) | 11 |
+| 历境炼心 | [model-历境炼心](/10-核心模型/model-历境炼心) | 12 |
+| 性命双修 | [model-性命双修](/10-核心模型/model-性命双修) | 9 |
 
-<div class="ai-panel" id="ai-panel" style="display:none;">
-  <div class="ai-search-box">
-    <input type="text" id="ai-query" placeholder="输入你的问题，比如：如何面对焦虑？" />
-    <button onclick="askAI()">提问</button>
-  </div>
-  <div class="ai-answer" id="ai-answer">👋 试试输入你的问题，AI会基于知识库内容回答</div>
-</div>
+**索引**：[核心模型索引](/10-核心模型/10-核心模型_INDEX)
 
-<div class="section-header">
-  <h2>🔥 热门模型 TOP 7</h2>
-  <a href="/10-核心模型/" class="more">查看全部 →</a>
-</div>
+**元方法**：[整体观](/10-核心模型/meta-整体观) — 贯穿 7 个模型的底层思维方式
 
-<div class="content-grid">
-  <a href="/10-核心模型/model-对境不住" class="content-item">
-    <span>🧘 对境不住</span>
-    <span class="count">22 原子</span>
-  </a>
-  <a href="/10-核心模型/model-对法不执" class="content-item">
-    <span>👐 对法不执</span>
-    <span class="count">17 原子</span>
-  </a>
-  <a href="/10-核心模型/model-自然务实" class="content-item">
-    <span>⚡ 自然务实</span>
-    <span class="count">16 原子</span>
-  </a>
-  <a href="/10-核心模型/model-历境炼心" class="content-item">
-    <span>🔥 历境炼心</span>
-    <span class="count">13 原子</span>
-  </a>
-  <a href="/10-核心模型/model-圆融中和" class="content-item">
-    <span>🌊 圆融中和</span>
-    <span class="count">12 原子</span>
-  </a>
-  <a href="/10-核心模型/model-性命双修" class="content-item">
-    <span>💪 性命双修</span>
-    <span class="count">7 原子</span>
-  </a>
-  <a href="/10-核心模型/model-天人合一" class="content-item">
-    <span>🌍 天人合一</span>
-    <span class="count">6 原子</span>
-  </a>
-</div>
+---
 
-<div class="section-header">
-  <h2>📖 热点专题 TOP 12</h2>
-  <a href="/20-专题研究/" class="more">查看全部 →</a>
-</div>
+### 第二层：专题研究（组合应用）
 
-<div class="content-grid">
-  <a href="/20-专题研究/topic-焦虑" class="content-item">
-    <span>如何面对焦虑</span>
-    <span class="count">对境不住·自然务实·对法不执</span>
-  </a>
-  <a href="/20-专题研究/topic-情绪" class="content-item">
-    <span>如何处理情绪</span>
-    <span class="count">对境不住·历境炼心·圆融中和</span>
-  </a>
-  <a href="/20-专题研究/topic-亲子教育" class="content-item">
-    <span>如何教育子女</span>
-    <span class="count">圆融中和·自然务实·历境炼心</span>
-  </a>
-  <a href="/20-专题研究/topic-工作修行" class="content-item">
-    <span>在工作中修行</span>
-    <span class="count">历境炼心·自然务实·圆融中和</span>
-  </a>
-  <a href="/20-专题研究/topic-人际关系" class="content-item">
-    <span>如何处理人际关系</span>
-    <span class="count">圆融中和·对境不住·历境炼心</span>
-  </a>
-  <a href="/20-专题研究/topic-选择" class="content-item">
-    <span>如何做出选择</span>
-    <span class="count">圆融中和·自然务实·对境不住</span>
-  </a>
-  <a href="/20-专题研究/topic-财富与布施" class="content-item">
-    <span>如何看待财富与布施</span>
-    <span class="count">自然务实·对法不执·圆融中和</span>
-  </a>
-  <a href="/20-专题研究/topic-忍辱与原谅" class="content-item">
-    <span>如何面对忍辱与原谅</span>
-    <span class="count">历境炼心·对法不执·圆融中和</span>
-  </a>
-  <a href="/20-专题研究/topic-疾病与健康" class="content-item">
-    <span>如何面对疾病与健康</span>
-    <span class="count">对境不住·性命双修·历境炼心</span>
-  </a>
-  <a href="/20-专题研究/topic-生死观" class="content-item">
-    <span>如何面对生死</span>
-    <span class="count">天人合一·对境不住·对法不执</span>
-  </a>
-  <a href="/20-专题研究/topic-入门实修" class="content-item">
-    <span>如何开始实修</span>
-    <span class="count">自然务实·对境不住·性命双修</span>
-  </a>
-  <a href="/20-专题研究/topic-修行进阶" class="content-item">
-    <span>修行进阶</span>
-    <span class="count">性命双修·对境不住·自然务实</span>
-  </a>
-</div>
+> 组合多个模型，深度分析复杂问题。
 
-<div class="section-header">
-  <h2>🧘 关键模型关系</h2>
-</div>
+**目录**：`20-专题研究/`
 
-<div class="content-grid">
-  <a href="/03-Output/核心摘要" class="content-item">
-    <span>📄 核心摘要</span>
-    <span class="count">精华版</span>
-  </a>
-  <a href="/03-Output/学习指南" class="content-item">
-    <span>📄 学习指南</span>
-    <span class="count">入门路径</span>
-  </a>
-  <a href="/30-学习路径/path-认知路径" class="content-item">
-    <span>🗺 认知路径</span>
-    <span class="count">系统学习者</span>
-  </a>
-  <a href="/30-学习路径/path-问题路径" class="content-item">
-    <span>🗺 问题路径</span>
-    <span class="count">问题导向</span>
-  </a>
-  <a href="/30-学习路径/path-新手入门" class="content-item">
-    <span>🗺 新手入门</span>
-    <span class="count">7天计划</span>
-  </a>
-  <a href="/20-专题研究/topic-家庭教育体系" class="content-item">
-    <span>🏠 家庭教育体系</span>
-    <span class="count">3大基石·7模型</span>
-  </a>
-</div>
+| 专题 | 文件 | 组合模型 | 类型 |
+|------|------|---------|:----:|
+| 焦虑 | [topic-焦虑](/20-专题研究/topic-焦虑) | 对境不住 + 自然务实 + 对法不执 | 问题分析 |
+| 情绪 | [topic-情绪](/20-专题研究/topic-情绪) | 对境不住 + 历境炼心 + 圆融中和 | 问题分析 |
+| 入门实修 | [topic-入门实修](/20-专题研究/topic-入门实修) | 自然务实 + 对境不住 + 性命双修 | 实践指导 |
+| 工作修行 | [topic-工作修行](/20-专题研究/topic-工作修行) | 历境炼心 + 自然务实 + 圆融中和 | 问题分析 |
+| 人际关系 | [topic-人际关系](/20-专题研究/topic-人际关系) | 圆融中和 + 对境不住 + 历境炼心 | 问题分析 |
+| 选择 | [topic-选择](/20-专题研究/topic-选择) | 圆融中和 + 自然务实 + 对境不住 | 问题分析 |
+| 疾病与健康 | [topic-疾病与健康](/20-专题研究/topic-疾病与健康) | 对境不住 + 性命双修 + 历境炼心 | 问题分析 |
+| 财富与布施 | [topic-财富与布施](/20-专题研究/topic-财富与布施) | 自然务实 + 对法不执 + 圆融中和 | 问题分析 |
+| 亲子教育 | [topic-亲子教育](/20-专题研究/topic-亲子教育) | 圆融中和 + 自然务实 + 历境炼心 | 问题分析 |
+| 忍辱与原谅 | [topic-忍辱与原谅](/20-专题研究/topic-忍辱与原谅) | 历境炼心 + 对法不执 + 圆融中和 | 问题分析 |
+| 生死观 | [topic-生死观](/20-专题研究/topic-生死观) | 天人合一 + 对境不住 + 对法不执 | 问题分析 |
+| 修行进阶 | [topic-修行进阶](/20-专题研究/topic-修行进阶) | 性命双修 + 对境不住 + 自然务实 | 实践指导 |
+| 家庭教育体系 | [topic-家庭教育体系](/20-专题研究/topic-家庭教育体系) | **全7模型融合** | **体系构建** | ✅ |
 
-<div class="footer-links">
-  <a href="/99-运维/cross-refs">📋 更新日志</a>
-  <a href="https://github.com/example/liaokongjushi-wisdom" target="_blank">🐱 GitHub</a>
-</div>
+**索引**：[专题研究索引](/20-专题研究/20-专题研究_INDEX)
 
-<script>
-function toggleAIPanel() {
-  const panel = document.getElementById('ai-panel');
-  panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
-  if (panel.style.display === 'block') {
-    document.getElementById('ai-query').focus();
-  }
-}
+---
 
-async function askAI() {
-  const query = document.getElementById('ai-query').value.trim();
-  if (!query) return;
-  const answerDiv = document.getElementById('ai-answer');
-  answerDiv.textContent = '🤔 正在思考...';
-  
-  // 本地简单关键词匹配 (placeholder)
-  const keywordMap = {
-    '焦虑': '了空居士说：面对焦虑，核心是"对境不住"——不要被焦虑的情绪本身带走，而是作为旁观者观察它。具体方法：1) 问自己"我为什么要焦虑？" 2) 区分"我能控制的"和"我不能控制的" 3) 将精力放在你能控制的部分上。',
-    '情绪': '了空居士教导我们：情绪来了不要压，也不要放纵。关键是"不怕念起，只怕觉迟"。觉察到情绪升起的瞬间，你已经从情绪中抽离出来了。然后平静地问自己：这个情绪告诉我什么？',
-    '亲子': '了空居士说：家庭是道场。教育孩子的核心不是"教"，而是"做"——你是什么样的人，孩子就会成为什么样的人。以身作则比说教有效一万倍。',
-    '修行': '了空居士反复强调：生活就是修行。不是要你放下工作去闭关，而是在吃饭、走路、工作中保持清净心。历境炼心，在每一个细节上磨炼。',
-    '教育': '三大原则：1) 以身作则 2) 因材施教 3) 共同成长。详情请参考 家庭教育体系专题。',
-  };
+### 第三层：学习路径（学习地图）
 
-  let found = false;
-  for (const [key, answer] of Object.entries(keywordMap)) {
-    if (query.includes(key)) {
-      answerDiv.textContent = answer;
-      found = true;
-      break;
-    }
-  }
-  if (!found) {
-    answerDiv.textContent = '💡 这个问题需要更深入的回答。建议到相关专题中查找，或换一个关键词试试。你也可以搜索：焦虑、情绪、亲子、修行、教育等。';
-  }
-}
-</script>
+> 按次第深入的学习路线图。
+
+**目录**：`30-学习路径/`
+
+| 路径 | 文件 | 适用人群 |
+|------|------|---------|
+| 认知路径 | [path-认知路径](/30-学习路径/path-认知路径) | 系统学习者 |
+| 问题路径 | [path-问题路径](/30-学习路径/path-问题路径) | 问题导向者 |
+| 新手入门 | [path-新手入门](/30-学习路径/path-新手入门) | 初学者 |
+
+**索引**：[学习路径索引](/30-学习路径/30-学习路径_INDEX)
+
+---
+
+### 第四层：原话金句（血肉）
+
+> 保留了空居士精彩原话的口语化感染力。
+
+**目录**：`40-原话金句/`
+
+| 类别 | 文件 |
+|------|------|
+| 道德经 | [quote-道德经](/40-原话金句/quote-道德经) |
+| 金刚经 | [quote-金刚经](/40-原话金句/quote-金刚经) |
+| 心经 | [quote-心经](/40-原话金句/quote-心经) |
+| 中论丹道 | [quote-中论丹道](/40-原话金句/quote-中论丹道) |
+| 答疑精选 | [quote-答疑精选](/40-原话金句/quote-答疑精选) |
+| 按模型索引 | [quote-按模型索引](/40-原话金句/quote-按模型索引) |
+
+**索引**：[原话金句索引](/40-原话金句/40-原话金句_INDEX)
+
+---
+
+### 第五层：概念资料（索引）
+
+> 术语词典和资料索引，方便溯源。
+
+**目录**：`50-概念资料/`
+
+| 类型 | 说明 |
+|------|------|
+| dict-*.md | 术语词典（如 [dict-清净心](/50-概念资料/dict-清净心)） |
+| data-原始资料索引.md | 原始文档索引 |
+| data-矛盾记录.md | 矛盾或待澄清 |
+
+**索引**：[概念资料索引](/50-概念资料/50-概念资料_INDEX)
+
+---
+
+### 第六层：原文段落（溯源）
+
+> 从原始文章中按主题切分的完整段落，供模型原子链接溯源。
+
+**目录**：`60-原文段落/`
+
+**索引**：[原文段落索引](/60-原文段落/60-原文段落_INDEX)
+
+---
+
+## 运维文件
+
+**目录**：`99-运维/`
+
+| 文件 | 说明 |
+|------|------|
+| [cross-refs](/99-运维/cross-refs) | 交叉引用表 |
+
+---
+
+## 快速导航
+
+- [学习指南](/03-Output/学习指南) - 新手指南
+- [核心摘要](/03-Output/核心摘要) - 精华提炼
+- [专题报告](/03-Output/专题报告) - 深度分析报告
+
+---
+
+## 统计
+
+| 层级 | 页面数 | 说明 |
+|------|--------|------|
+| 核心模型 | 7+1 | ✅ 已创建（约91原子 + 1元方法） |
+| 专题研究 | 13 | ✅ 已创建（含"家庭教育体系"课题研究成果） |
+| 学习路径 | 3 | ✅ 已创建（认知+问题+新手） |
+| 原话金句 | 6 | ✅ 已创建（~120条金句） |
+| 概念资料 | 25+ | ✅ 已创建（25条术语+索引） |
+| 原文段落 | 68 | ✅ 全部7模型91原子已完成原文溯源 |
+
+---
+
+## 最后更新
+
+- 2026-05-06：✅ 原文追溯全部完成——7模型91原子→68个原文段落文件，每个原子均可一键跳转至完整原文
+- 2026-05-06：对境不住模型重构——21原子→16原子（6组分类），合并重复原子，移除助人如己（归天人合一），新增四步操作法、常见失败诊断、分阶实践指引
+- 2026-05-06：新增"整体观"元方法页面——定位为贯穿 7 模型的分析方法论，各模型实践指引加入整体观视角
+- 2026-05-06：模型结构修订——纯一直心去重（留自然务实）、是法平等移至对法不执、一体同观移至天人合一、因果分条算移至天人合一因果不空、新增理智原子
+- 2026-05-06：完成全部五层结构——核心模型✅ 专题研究✅ 学习路径✅ 原话金句✅ 概念资料✅
+- 2026-05-06：新增"家庭教育体系"专题（课题三成果），专题研究增至13个，新增体系构建类型
