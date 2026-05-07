@@ -8,6 +8,7 @@ export default defineConfig({
   lastUpdated: true,
   cleanUrls: true,
   ignoreDeadLinks: true,
+  base: '/liaokongjushi-wisdom/',
 
   head: [
     ['link', { rel: 'icon', href: '/favicon.svg' }],
