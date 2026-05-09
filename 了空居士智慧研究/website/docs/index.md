@@ -5,8 +5,9 @@ title: 首页
 
 <div class="home-hero">
   <div class="hero-eyebrow">了空居士智慧体系</div>
-  <h1>了空居士<span class="gold">智慧</span> <span class="hero-version">V 2.0</span></h1>
-  <p class="hero-sub">从原始著述到系统模型，每个概念都能溯源到原文</p>
+  <h1>了空居士<span class="gold">智慧</span> <span class="hero-version">V 2.5</span></h1>
+  <p class="hero-sub">从原始著述到系统模型，每个概念都能溯源到原文。由AI梳理，未经了空居士本人审定</p>
+  <p class="hero-author">— 明树</p>
 </div>
 
 <div class="home-section">

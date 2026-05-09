@@ -146,6 +146,14 @@ hr { border:none; border-top:1px solid var(--border); margin:32px 0 }
 }
 .hero-sub strong { color:var(--navy); font-weight:700 }
 
+.hero-author {
+  font-size:13px;
+  color:var(--text2);
+  margin-top:6px;
+  font-family:var(--sans);
+  letter-spacing:1px;
+}
+
 /* --- Nav cards (feature grid) --- */
 .feature-grid {
   display:grid;
