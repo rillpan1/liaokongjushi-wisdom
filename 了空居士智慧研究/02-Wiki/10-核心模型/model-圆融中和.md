@@ -154,7 +154,8 @@
 
 每次遇到需要判断的事情：
 
-```
+<img src="/diagrams/yuanrongzhonghe-ops.svg" alt="圆融中和三问操作法" style="width:100%;max-width:720px;display:block;margin:24px auto;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.08)">
+
 第一问（看立场）：我现在的判断，是不是只站在我的利益上？
                  → 如果是，跳出自我。问"对方会怎么看？旁观者会怎么看？"
 

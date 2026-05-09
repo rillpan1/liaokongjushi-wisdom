@@ -1,171 +1,150 @@
-# 了空居士智慧研究 - Wiki 总索引
-
-> 本文件是整个 Wiki 的总目录，按五层结构组织。
-
+---
+layout: page
+title: 首页
 ---
 
-## 项目概述
+<div class="home-hero">
+  <div class="hero-eyebrow">了空居士智慧体系</div>
+  <h1>了空居士<span class="gold">智慧</span> <span class="hero-version">V 2.0</span></h1>
+  <p class="hero-sub">从原始著述到系统模型，每个概念都能溯源到原文</p>
+</div>
 
-**核心理念**：从原始文章"蒸馏"模型原子，聚类形成7个核心心智模型
+<div class="home-section">
 
-**7个核心模型**（从8篇核心文章、80个模型原子中蒸馏）：
-1. **天人合一**（世界观）— 人与宇宙能量一体，一切不永恒但因果不虚
-2. **清净心**（心法）— 心如明镜，不被现象所迷惑
-3. **无执**（破执）— 连佛法都要放下，何况世间法
-4. **自然务实**（方法论）— 直指人心，抓核心，在生活中落实
-5. **圆融中和**（处世）— 不偏不倚，因地制宜的智慧
-6. **历境炼心**（实践）— 在每一个细节上磨炼
-7. **性命双修**（功法）— 性命双修，既要明心也要修身
+<div class="feature-grid">
+  <a href="/10-核心模型/10-核心模型_INDEX" class="feature-card">
+    <span class="feature-icon">🧘</span>
+    <div class="feature-title">核心模型</div>
+    <div class="feature-desc">7 个心智模型，系统性认知框架</div>
+    <span class="feature-card-arrow">→</span>
+  </a>
+  <a href="/20-专题研究/20-专题研究_INDEX" class="feature-card">
+    <span class="feature-icon">🔍</span>
+    <div class="feature-title">专题研究</div>
+    <div class="feature-desc">13 个深度专题，组合模型解实际问题</div>
+    <span class="feature-card-arrow">→</span>
+  </a>
+  <a href="/30-学习路径/30-学习路径_INDEX" class="feature-card">
+    <span class="feature-icon">📖</span>
+    <div class="feature-title">学习路径</div>
+    <div class="feature-desc">3 条学习路线，循序渐进入门</div>
+    <span class="feature-card-arrow">→</span>
+  </a>
+  <a href="/40-原话金句/40-原话金句_INDEX" class="feature-card">
+    <span class="feature-icon">💬</span>
+    <div class="feature-title">原话金句</div>
+    <div class="feature-desc">5 类经典金句，保留原话感染力</div>
+    <span class="feature-card-arrow">→</span>
+  </a>
+</div>
+</div>
 
----
+<div class="home-section">
 
-## 五层结构
+<div class="section-header">
+  <h2 class="section-title">核心心智模型</h2>
+  <div class="section-line"></div>
+  <span class="section-count">7+1</span>
+</div>
+<div class="tag-cloud">
+  <a href="/10-核心模型/meta-整体观" class="tag tier-special">🌐 整体观<span class="tag-desc">元方法</span></a>
+</div>
+<div class="tag-cloud" style="margin-top:10px">
+  <a href="/10-核心模型/model-天人合一" class="tag tier-1">天人合一<span class="tag-n">9</span></a>
+  <a href="/10-核心模型/model-对境不住" class="tag tier-1">对境不住<span class="tag-n">16</span></a>
+  <a href="/10-核心模型/model-对法不执" class="tag tier-1">对法不执<span class="tag-n">18</span></a>
+</div>
+<div class="tag-cloud" style="margin-top:10px">
+  <a href="/10-核心模型/model-自然务实" class="tag tier-2">自然务实<span class="tag-n">16</span></a>
+  <a href="/10-核心模型/model-圆融中和" class="tag tier-2">圆融中和<span class="tag-n">11</span></a>
+  <a href="/10-核心模型/model-历境炼心" class="tag tier-2">历境炼心<span class="tag-n">12</span></a>
+  <a href="/10-核心模型/model-性命双修" class="tag">性命双修<span class="tag-n">9</span></a>
+</div>
+</div>
 
-### 第一层：核心模型（骨架）
+<div class="home-section">
 
-> 七个核心心智模型，每个由多个"模型原子"组成。
+<div class="section-header">
+  <h2 class="section-title">核心概念</h2>
+  <div class="section-line"></div>
+  <span class="section-count">40</span>
+</div>
 
-**目录**：`10-核心模型/`
+<div class="concept-group">
+  <div class="concept-group-title">佛家</div>
+  <div class="tag-cloud">
+    <a href="/50-概念资料/dict-清净心" class="tag tier-1">清净心</a>
+    <a href="/50-概念资料/dict-我执" class="tag tier-1">我执</a>
+    <a href="/50-概念资料/dict-不二" class="tag tier-1">不二</a>
+    <a href="/50-概念资料/dict-法执" class="tag">法执</a>
+    <a href="/50-概念资料/dict-无明" class="tag">无明</a>
+    <a href="/50-概念资料/dict-烦恼" class="tag">烦恼</a>
+    <a href="/50-概念资料/dict-观照" class="tag">观照</a>
+    <a href="/50-概念资料/dict-止观" class="tag">止观</a>
+    <a href="/50-概念资料/dict-般若" class="tag">般若</a>
+    <a href="/50-概念资料/dict-菩提" class="tag">菩提</a>
+    <a href="/50-概念资料/dict-涅槃" class="tag">涅槃</a>
+    <a href="/50-概念资料/dict-顽空" class="tag">顽空</a>
+  </div>
+</div>
 
-| 模型 | 文件 | 核心原子数 |
-|------|------|-----------|
-| 天人合一 | [[10-核心模型/model-天人合一]] | 9 |
-| 对境不住 | [[10-核心模型/model-对境不住]] | 16 |
-| 对法不执 | [[10-核心模型/model-对法不执]] | 18 |
-| 自然务实 | [[10-核心模型/model-自然务实]] | 16 |
-| 圆融中和 | [[10-核心模型/model-圆融中和]] | 11 |
-| 历境炼心 | [[10-核心模型/model-历境炼心]] | 12 |
-| 性命双修 | [[10-核心模型/model-性命双修]] | 9 |
+<div class="concept-group">
+  <div class="concept-group-title">道家</div>
+  <div class="tag-cloud">
+    <a href="/50-概念资料/dict-自然" class="tag tier-1">自然</a>
+    <a href="/50-概念资料/dict-无为" class="tag tier-1">无为</a>
+    <a href="/50-概念资料/dict-柔弱" class="tag">柔弱</a>
+    <a href="/50-概念资料/dict-守中" class="tag">守中</a>
+    <a href="/50-概念资料/dict-和光同尘" class="tag">和光同尘</a>
+    <a href="/50-概念资料/dict-道" class="tag">道</a>
+  </div>
+</div>
 
-**索引**：[[10-核心模型/10-核心模型_INDEX|核心模型索引]]
+<div class="concept-group">
+  <div class="concept-group-title">儒家</div>
+  <div class="tag-cloud">
+    <a href="/50-概念资料/dict-孝" class="tag">孝</a>
+    <a href="/50-概念资料/dict-敬" class="tag">敬</a>
+    <a href="/50-概念资料/dict-恕" class="tag">恕</a>
+    <a href="/50-概念资料/dict-处世" class="tag">处世</a>
+    <a href="/50-概念资料/dict-家庭道场" class="tag">家庭道场</a>
+    <a href="/50-概念资料/dict-礼" class="tag">礼</a>
+    <a href="/50-概念资料/dict-正" class="tag">正</a>
+    <a href="/50-概念资料/dict-义" class="tag">义</a>
+    <a href="/50-概念资料/dict-仁" class="tag">仁</a>
+    <a href="/50-概念资料/dict-平常心" class="tag">平常心</a>
+  </div>
+</div>
 
-**元方法**：[[10-核心模型/meta-整体观|整体观]] — 贯穿 7 个模型的底层思维方式
+<div class="concept-group">
+  <div class="concept-group-title">丹道</div>
+  <div class="tag-cloud">
+    <a href="/50-概念资料/dict-丹田" class="tag">丹田</a>
+    <a href="/50-概念资料/dict-任脉" class="tag">任脉</a>
+    <a href="/50-概念资料/dict-督脉" class="tag">督脉</a>
+    <a href="/50-概念资料/dict-小周天" class="tag">小周天</a>
+    <a href="/50-概念资料/dict-大周天" class="tag">大周天</a>
+    <a href="/50-概念资料/dict-炼精化气" class="tag">炼精化气</a>
+    <a href="/50-概念资料/dict-炼气化神" class="tag">炼气化神</a>
+    <a href="/50-概念资料/dict-炼神还虚" class="tag">炼神还虚</a>
+    <a href="/50-概念资料/dict-形神俱妙" class="tag">形神俱妙</a>
+  </div>
+</div>
 
----
+<div class="concept-group">
+  <div class="concept-group-title">其他</div>
+  <div class="tag-cloud">
+    <a href="/50-概念资料/dict-不住" class="tag">不住</a>
+    <a href="/50-概念资料/dict-中道" class="tag">中道</a>
+  </div>
+</div>
 
-### 第二层：专题研究（组合应用）
+</div>
 
-> 组合多个模型，深度分析复杂问题。
-
-**目录**：`20-专题研究/`
-
-| 专题 | 文件 | 组合模型 | 类型 |
-|------|------|---------|:----:|
-| 焦虑 | [[20-专题研究/topic-焦虑]] | 对境不住 + 自然务实 + 对法不执 | 问题分析 |
-| 情绪 | [[20-专题研究/topic-情绪]] | 对境不住 + 历境炼心 + 圆融中和 | 问题分析 |
-| 入门实修 | [[20-专题研究/topic-入门实修]] | 自然务实 + 对境不住 + 性命双修 | 实践指导 |
-| 工作修行 | [[20-专题研究/topic-工作修行]] | 历境炼心 + 自然务实 + 圆融中和 | 问题分析 |
-| 人际关系 | [[20-专题研究/topic-人际关系]] | 圆融中和 + 对境不住 + 历境炼心 | 问题分析 |
-| 选择 | [[20-专题研究/topic-选择]] | 圆融中和 + 自然务实 + 对境不住 | 问题分析 |
-| 疾病与健康 | [[20-专题研究/topic-疾病与健康]] | 对境不住 + 性命双修 + 历境炼心 | 问题分析 |
-| 财富与布施 | [[20-专题研究/topic-财富与布施]] | 自然务实 + 对法不执 + 圆融中和 | 问题分析 |
-| 亲子教育 | [[20-专题研究/topic-亲子教育]] | 圆融中和 + 自然务实 + 历境炼心 | 问题分析 |
-| 忍辱与原谅 | [[20-专题研究/topic-忍辱与原谅]] | 历境炼心 + 对法不执 + 圆融中和 | 问题分析 |
-| 生死观 | [[20-专题研究/topic-生死观]] | 天人合一 + 对境不住 + 对法不执 | 问题分析 |
-| 修行进阶 | [[20-专题研究/topic-修行进阶]] | 性命双修 + 对境不住 + 自然务实 | 实践指导 |
-| 家庭教育体系 | [[20-专题研究/topic-家庭教育体系]] | **全7模型融合** | **体系构建** | ✅ |
-
-**索引**：[[20-专题研究/20-专题研究_INDEX|专题研究索引]]
-
----
-
-### 第三层：学习路径（学习地图）
-
-> 按次第深入的学习路线图。
-
-**目录**：`30-学习路径/`
-
-| 路径 | 文件 | 适用人群 |
-|------|------|---------|
-| 认知路径 | [[30-学习路径/path-认知路径]] | 系统学习者 |
-| 问题路径 | [[30-学习路径/path-问题路径]] | 问题导向者 |
-| 新手入门 | [[30-学习路径/path-新手入门]] | 初学者 |
-
-**索引**：[[30-学习路径/30-学习路径_INDEX|学习路径索引]]
-
----
-
-### 第四层：原话金句（血肉）
-
-> 保留了空居士精彩原话的口语化感染力。
-
-**目录**：`40-原话金句/`
-
-| 类别 | 文件 |
-|------|------|
-| 道德经 | [[40-原话金句/quote-道德经]] |
-| 金刚经 | [[40-原话金句/quote-金刚经]] |
-| 心经 | [[40-原话金句/quote-心经]] |
-| 中论丹道 | [[40-原话金句/quote-中论丹道]] |
-| 答疑精选 | [[40-原话金句/quote-答疑精选]] |
-| 按模型索引 | [[40-原话金句/quote-按模型索引]] |
-
-**索引**：[[40-原话金句/40-原话金句_INDEX|原话金句索引]]
-
----
-
-### 第五层：概念资料（索引）
-
-> 术语词典和资料索引，方便溯源。
-
-**目录**：`50-概念资料/`
-
-| 类型 | 说明 |
-|------|------|
-| dict-*.md | 术语词典（如 [[50-概念资料/dict-清净心]]） |
-| data-原始资料索引.md | 原始文档索引 |
-| data-矛盾记录.md | 矛盾或待澄清 |
-
-**索引**：[[50-概念资料/50-概念资料_INDEX|概念资料索引]]
-
----
-
-### 第六层：原文段落（溯源）
-
-> 从原始文章中按主题切分的完整段落，供模型原子链接溯源。
-
-**目录**：`60-原文段落/`
-
-**索引**：[[60-原文段落/60-原文段落_INDEX|原文段落索引]]
-
----
-
-## 运维文件
-
-**目录**：`99-运维/`
-
-| 文件 | 说明 |
-|------|------|
-| [[99-运维/cross-refs]] | 交叉引用表 |
-
----
-
-## 快速导航
-
-- [[03-Output/学习指南|学习指南]] - 新手指南
-- [[03-Output/核心摘要|核心摘要]] - 精华提炼
-- [[03-Output/专题报告|专题报告]] - 深度分析报告
-
----
-
-## 统计
-
-| 层级 | 页面数 | 说明 |
-|------|--------|------|
-| 核心模型 | 7+1 | ✅ 已创建（约91原子 + 1元方法） |
-| 专题研究 | 13 | ✅ 已创建（含"家庭教育体系"课题研究成果） |
-| 学习路径 | 3 | ✅ 已创建（认知+问题+新手） |
-| 原话金句 | 6 | ✅ 已创建（~120条金句） |
-| 概念资料 | 25+ | ✅ 已创建（25条术语+索引） |
-| 原文段落 | 68 | ✅ 全部7模型91原子已完成原文溯源 |
-
----
-
-## 最后更新
-
-- 2026-05-06：✅ 原文追溯全部完成——7模型91原子→68个原文段落文件，每个原子均可一键跳转至完整原文
-- 2026-05-06：对境不住模型重构——21原子→16原子（6组分类），合并重复原子，移除助人如己（归天人合一），新增四步操作法、常见失败诊断、分阶实践指引
-- 2026-05-06：新增"整体观"元方法页面——定位为贯穿 7 模型的分析方法论，各模型实践指引加入整体观视角
-- 2026-05-06：模型结构修订——纯一直心去重（留自然务实）、是法平等移至对法不执、一体同观移至天人合一、因果分条算移至天人合一因果不空、新增理智原子
-- 2026-05-06：完成全部五层结构——核心模型✅ 专题研究✅ 学习路径✅ 原话金句✅ 概念资料✅
-- 2026-05-06：新增"家庭教育体系"专题（课题三成果），专题研究增至13个，新增体系构建类型
+<div class="home-section">
+<a href="/30-学习路径/path-新手入门" class="dark-promo">
+  <div class="dark-promo-title">从何处开始？</div>
+  <div class="dark-promo-text">如果你是第一次接触了空居士的智慧体系，推荐从新手入门路径开始，循序渐进地理解七个心智模型及其在生活中的应用。</div>
+  <span class="dark-promo-cta">新手入门路径 →</span>
+</a>
+</div>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" font-family="Noto Serif SC, serif" font-size="14">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1A2332" flood-opacity="0.15"/>
+    </filter>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B8860B"/>
+      <stop offset="100%" stop-color="#D4A843"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#B8860B" opacity="0.7"/>
+    </marker>
+  </defs>
+
+  <rect width="720" height="280" fill="#FAF7F2" rx="12"/>
+
+  <text x="360" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#1A2332">整体观 · 三问三答操作法</text>
+  <line x1="280" y1="36" x2="440" y2="36" stroke="#B8860B" stroke-width="2"/>
+
+  <!-- Q1: 错了吗？ -->
+  <rect x="20" y="48" width="200" height="48" rx="10" fill="#FFF8EE" stroke="url(#goldGrad)" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="120" y="70" text-anchor="middle" font-size="13" font-weight="700" fill="#1A2332">第一问：错了吗？</text>
+  <text x="120" y="86" text-anchor="middle" font-size="10" fill="#6B6560">展开看：我真的错了吗？</text>
+  <text x="120" y="102" text-anchor="middle" font-size="10" fill="#6B6560">错在哪里，怎么修正？</text>
+
+  <!-- Q2: 为什么？ -->
+  <rect x="260" y="48" width="200" height="48" rx="10" fill="#FFF8EE" stroke="url(#goldGrad)" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="360" y="70" text-anchor="middle" font-size="13" font-weight="700" fill="#1A2332">第二问：为什么？</text>
+  <text x="360" y="86" text-anchor="middle" font-size="10" fill="#6B6560">换我是对方，会怎么看？</text>
+  <text x="360" y="102" text-anchor="middle" font-size="10" fill="#6B6560">事情在教我什么？</text>
+
+  <!-- Q3: 下一步？ -->
+  <rect x="500" y="48" width="200" height="48" rx="10" fill="url(#goldGrad)" stroke="#B8860B" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="600" y="70" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">第三问：下一步？</text>
+  <text x="600" y="86" text-anchor="middle" font-size="10" fill="#FFF8EE">基于整体，当下做什么？</text>
+  <text x="600" y="102" text-anchor="middle" font-size="10" fill="#FFF8EE">做就是了，不做白不做</text>
+
+  <!-- Arrows -->
+  <line x1="220" y1="72" x2="256" y2="72" stroke="#B8860B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="460" y1="72" x2="496" y2="72" stroke="#B8860B" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Divider -->
+  <line x1="20" y1="116" x2="700" y2="116" stroke="#E0D6C8" stroke-width="1"/>
+
+  <!-- Feature 1 -->
+  <rect x="20" y="128" width="210" height="52" rx="8" fill="#FFF8EE" stroke="#E0D6C8" stroke-width="0.8"/>
+  <text x="125" y="148" text-anchor="middle" font-size="11" font-weight="600" fill="#B8860B">快速全景</text>
+  <text x="125" y="164" text-anchor="middle" font-size="10" fill="#1A2332">就像后退几步看画，</text>
+  <text x="125" y="178" text-anchor="middle" font-size="10" fill="#1A2332">整体自然浮现</text>
+
+  <!-- Feature 2 -->
+  <rect x="255" y="128" width="210" height="52" rx="8" fill="#FFF8EE" stroke="#E0D6C8" stroke-width="0.8"/>
+  <text x="360" y="148" text-anchor="middle" font-size="11" font-weight="600" fill="#B8860B">阴阳同体</text>
+  <text x="360" y="164" text-anchor="middle" font-size="10" fill="#1A2332">看到对立背后的统一，</text>
+  <text x="360" y="178" text-anchor="middle" font-size="10" fill="#1A2332">没有绝对的对错</text>
+
+  <!-- Feature 3 -->
+  <rect x="490" y="128" width="210" height="52" rx="8" fill="url(#goldGrad)" stroke="#B8860B" stroke-width="0.8" opacity="0.12"/>
+  <text x="595" y="148" text-anchor="middle" font-size="11" font-weight="600" fill="#1A2332">无我全景</text>
+  <text x="595" y="164" text-anchor="middle" font-size="10" fill="#1A2332">站在众生整体利益看，</text>
+  <text x="595" y="178" text-anchor="middle" font-size="10" fill="#1A2332">不带"我"的评判</text>
+
+  <!-- Bottom: 示例 -->
+  <rect x="20" y="198" width="680" height="72" rx="10" fill="#1A2332" opacity="0.06" stroke="#E0D6C8"/>
+  <text x="360" y="220" text-anchor="middle" font-size="12" font-weight="700" fill="#1A2332">示例：夫妻吵架</text>
+  <text x="360" y="238" text-anchor="middle" font-size="11" fill="#6B6560">错了吗？→ 都在执着自己的"对"，</text>
+  <text x="360" y="254" text-anchor="middle" font-size="11" fill="#6B6560">   → 跳出"我对你错"，看整体怎么才能都好</text>
+  <text x="360" y="270" text-anchor="middle" font-size="11" fill="#B8860B" font-weight="600">下一步？→ 先闭嘴→各自冷静→用整体观重新谈</text>
+</svg>

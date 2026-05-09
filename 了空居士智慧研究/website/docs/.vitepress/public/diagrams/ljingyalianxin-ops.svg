@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" font-family="Noto Serif SC, serif" font-size="14">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1A2332" flood-opacity="0.15"/>
+    </filter>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B8860B"/>
+      <stop offset="100%" stop-color="#D4A843"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#B8860B" opacity="0.7"/>
+    </marker>
+  </defs>
+
+  <rect width="720" height="200" fill="#FAF7F2" rx="12"/>
+
+  <text x="360" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#1A2332">历境炼心 · 三步操作法</text>
+  <line x1="280" y1="36" x2="440" y2="36" stroke="#B8860B" stroke-width="2"/>
+
+  <!-- Step 1: 觉 -->
+  <rect x="20" y="52" width="200" height="48" rx="10" fill="#FFF8EE" stroke="url(#goldGrad)" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="120" y="74" text-anchor="middle" font-size="13" font-weight="700" fill="#1A2332">第一步 觉</text>
+  <text x="120" y="92" text-anchor="middle" font-size="11" fill="#6B6560">觉察"我在烦/在气"</text>
+
+  <!-- Step 2: 转 -->
+  <rect x="260" y="52" width="200" height="48" rx="10" fill="#FFF8EE" stroke="url(#goldGrad)" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="360" y="74" text-anchor="middle" font-size="13" font-weight="700" fill="#1A2332">第二步 转</text>
+  <text x="360" y="92" text-anchor="middle" font-size="11" fill="#6B6560">"这件事在教我什么？"</text>
+
+  <!-- Step 3: 行 -->
+  <rect x="500" y="52" width="200" height="48" rx="10" fill="url(#goldGrad)" stroke="#B8860B" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="600" y="74" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">第三步 行</text>
+  <text x="600" y="92" text-anchor="middle" font-size="11" fill="#FFF8EE">回到当下该做的事</text>
+
+  <!-- Arrows -->
+  <line x1="220" y1="76" x2="256" y2="76" stroke="#B8860B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="460" y1="76" x2="496" y2="76" stroke="#B8860B" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Bottom: 核心洞察 -->
+  <rect x="20" y="118" width="680" height="72" rx="10" fill="#1A2332" opacity="0.06" stroke="#E0D6C8"/>
+  <text x="360" y="140" text-anchor="middle" font-size="12" font-weight="700" fill="#1A2332">核心洞察 · 烦恼即菩提</text>
+  <text x="360" y="158" text-anchor="middle" font-size="11" fill="#6B6560">闭嘴 → 松下来 → 看着它但不跳进去，烦恼就是开悟的素材</text>
+  <text x="360" y="174" text-anchor="middle" font-size="10" fill="#B8860B" font-weight="600">检验：闭嘴之后，20分钟内回到平静</text>
+</svg>

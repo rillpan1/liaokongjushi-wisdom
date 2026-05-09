@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" font-family="Noto Serif SC, serif" font-size="14">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1A2332" flood-opacity="0.15"/>
+    </filter>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B8860B"/>
+      <stop offset="100%" stop-color="#D4A843"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#B8860B" opacity="0.7"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="720" height="480" fill="#FAF7F2" rx="12"/>
+
+  <!-- Title -->
+  <text x="360" y="32" text-anchor="middle" font-size="18" font-weight="700" fill="#1A2332">天人合一 · 模型内部逻辑</text>
+  <line x1="280" y1="42" x2="440" y2="42" stroke="#B8860B" stroke-width="2"/>
+
+  <!-- Node template: rounded rect, gold border, cream fill -->
+  <!-- 1. 缘起性空 -->
+  <rect x="260" y="58" width="200" height="48" rx="8" fill="#FFF8EE" stroke="url(#goldGrad)" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="360" y="80" text-anchor="middle" font-size="13" font-weight="700" fill="#1A2332">缘起性空</text>
+  <text x="360" y="98" text-anchor="middle" font-size="11" fill="#6B6560">万物无独立不变实体（空性）</text>
+
+  <!-- arrow 1→2 -->
+  <line x1="360" y1="106" x2="360" y2="122" stroke="#B8860B" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- 2. 因果不空 -->
+  <rect x="260" y="122" width="200" height="48" rx="8" fill="#FFF8EE" stroke="url(#goldGrad)" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="360" y="144" text-anchor="middle" font-size="13" font-weight="700" fill="#1A2332">因果不空</text>
+  <text x="360" y="162" text-anchor="middle" font-size="11" fill="#6B6560">因果规律永远运作 · 分条算</text>
+
+  <!-- arrow 2→3 -->
+  <line x1="360" y1="170" x2="360" y2="186" stroke="#B8860B" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- 3. 万法一体 (main box with sub-items) -->
+  <rect x="240" y="186" width="240" height="72" rx="8" fill="#FFF8EE" stroke="url(#goldGrad)" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="360" y="208" text-anchor="middle" font-size="13" font-weight="700" fill="#1A2332">万法一体</text>
+  <text x="360" y="226" text-anchor="middle" font-size="11" fill="#6B6560">空性 + 相续 → 万物通过场连为一体</text>
+  <!-- sub-items -->
+  <rect x="260" y="232" width="72" height="20" rx="4" fill="#B8860B" opacity="0.12" stroke="#B8860B" stroke-width="0.8"/>
+  <text x="296" y="246" text-anchor="middle" font-size="10" fill="#1A2332">场的统一</text>
+  <rect x="340" y="232" width="72" height="20" rx="4" fill="#B8860B" opacity="0.12" stroke="#B8860B" stroke-width="0.8"/>
+  <text x="376" y="246" text-anchor="middle" font-size="10" fill="#1A2332">宇宙统一场</text>
+  <rect x="420" y="232" width="56" height="20" rx="4" fill="#B8860B" opacity="0.12" stroke="#B8860B" stroke-width="0.8"/>
+  <text x="448" y="246" text-anchor="middle" font-size="10" fill="#1A2332">亲证体验</text>
+
+  <!-- arrow 3→4 -->
+  <line x1="330" y1="258" x2="310" y2="274" stroke="#B8860B" stroke-width="1.2" marker-end="url(#arrow)"/>
+  <line x1="390" y1="258" x2="410" y2="274" stroke="#B8860B" stroke-width="1.2" marker-end="url(#arrow)"/>
+
+  <!-- 4. 箩筐与大海 -->
+  <rect x="80" y="274" width="200" height="48" rx="8" fill="#FFF8EE" stroke="url(#goldGrad)" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="180" y="296" text-anchor="middle" font-size="13" font-weight="700" fill="#1A2332">箩筐与大海</text>
+  <text x="180" y="314" text-anchor="middle" font-size="11" fill="#6B6560">一体是本来事实，修炼去障碍</text>
+
+  <!-- 5. 能量共振 -->
+  <rect x="440" y="274" width="200" height="48" rx="8" fill="#FFF8EE" stroke="url(#goldGrad)" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="540" y="296" text-anchor="middle" font-size="13" font-weight="700" fill="#1A2332">能量共振</text>
+  <text x="540" y="314" text-anchor="middle" font-size="11" fill="#6B6560">调整频率回归一体（动态）</text>
+
+  <!-- arrow 4→6 -->
+  <line x1="180" y1="322" x2="280" y2="338" stroke="#B8860B" stroke-width="1.2" marker-end="url(#arrow)"/>
+  <!-- arrow 5→6 -->
+  <line x1="540" y1="322" x2="440" y2="338" stroke="#B8860B" stroke-width="1.2" marker-end="url(#arrow)"/>
+
+  <!-- 6. 一体同观 -->
+  <rect x="280" y="338" width="160" height="48" rx="8" fill="url(#goldGrad)" stroke="#B8860B" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="360" y="360" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">一体同观</text>
+  <text x="360" y="378" text-anchor="middle" font-size="11" fill="#FFF8EE">理上明白 → 事上做到</text>
+
+  <!-- arrow 6→7 -->
+  <line x1="360" y1="386" x2="360" y2="402" stroke="#B8860B" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- 7. 观天之道 + 天性人也 -->
+  <rect x="260" y="402" width="200" height="48" rx="8" fill="#FFF8EE" stroke="url(#goldGrad)" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="360" y="424" text-anchor="middle" font-size="13" font-weight="700" fill="#1A2332">观天之道 + 天性人也</text>
+  <text x="360" y="442" text-anchor="middle" font-size="11" fill="#6B6560">按自然规律行事，回归天性</text>
+
+  <!-- Side note -->
+  <rect x="560" y="186" width="148" height="100" rx="8" fill="#FFF8EE" stroke="#E0D6C8" stroke-width="1" opacity="0.9"/>
+  <text x="634" y="208" text-anchor="middle" font-size="12" font-weight="700" fill="#1A2332">同体大悲</text>
+  <text x="634" y="226" text-anchor="middle" font-size="11" fill="#6B6560">自然流露</text>
+  <line x1="580" y1="232" x2="688" y2="232" stroke="#E0D6C8" stroke-width="1"/>
+  <text x="634" y="250" text-anchor="middle" font-size="10" fill="#1A2332">因→缘→果</text>
+  <text x="634" y="266" text-anchor="middle" font-size="10" fill="#1A2332">利人=利己</text>
+  <text x="634" y="282" text-anchor="middle" font-size="10" fill="#1A2332">慈悲非勉强</text>
+</svg>

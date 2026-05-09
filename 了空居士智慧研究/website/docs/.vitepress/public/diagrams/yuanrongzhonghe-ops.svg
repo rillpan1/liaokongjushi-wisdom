@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 240" font-family="Noto Serif SC, serif" font-size="14">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1A2332" flood-opacity="0.15"/>
+    </filter>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B8860B"/>
+      <stop offset="100%" stop-color="#D4A843"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#B8860B" opacity="0.7"/>
+    </marker>
+  </defs>
+
+  <rect width="720" height="240" fill="#FAF7F2" rx="12"/>
+
+  <text x="360" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#1A2332">圆融中和 · 三问操作法</text>
+  <line x1="280" y1="36" x2="440" y2="36" stroke="#B8860B" stroke-width="2"/>
+
+  <!-- Q1: 看立场 -->
+  <rect x="20" y="50" width="210" height="56" rx="10" fill="#FFF8EE" stroke="url(#goldGrad)" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="125" y="72" text-anchor="middle" font-size="13" font-weight="700" fill="#1A2332">第一问：看立场</text>
+  <text x="125" y="90" text-anchor="middle" font-size="10" fill="#6B6560">我现在的判断，是不是只站</text>
+  <text x="125" y="104" text-anchor="middle" font-size="10" fill="#6B6560">在我的利益上？</text>
+
+  <!-- Q2: 看极端 -->
+  <rect x="255" y="50" width="210" height="56" rx="10" fill="#FFF8EE" stroke="url(#goldGrad)" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="360" y="72" text-anchor="middle" font-size="13" font-weight="700" fill="#1A2332">第二问：看极端</text>
+  <text x="360" y="90" text-anchor="middle" font-size="10" fill="#6B6560">我是不是在走极端？</text>
+  <text x="360" y="104" text-anchor="middle" font-size="10" fill="#6B6560">有没有第三/四种可能？</text>
+
+  <!-- Q3: 看整体 -->
+  <rect x="490" y="50" width="210" height="56" rx="10" fill="url(#goldGrad)" stroke="#B8860B" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="595" y="72" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">第三问：看整体</text>
+  <text x="595" y="90" text-anchor="middle" font-size="10" fill="#FFF8EE">从整体利益看，什么方案</text>
+  <text x="595" y="104" text-anchor="middle" font-size="10" fill="#FFF8EE">对各方损失最小？</text>
+
+  <!-- Arrows -->
+  <line x1="230" y1="78" x2="250" y2="78" stroke="#B8860B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="465" y1="78" x2="485" y2="78" stroke="#B8860B" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Bottom: 典型案例 -->
+  <rect x="20" y="126" width="680" height="98" rx="10" fill="#1A2332" opacity="0.06" stroke="#E0D6C8"/>
+  <text x="360" y="148" text-anchor="middle" font-size="12" font-weight="700" fill="#1A2332">典型案例 · 司马光砸缸</text>
+  <text x="360" y="166" text-anchor="middle" font-size="11" fill="#6B6560">救人要紧，不管金鱼缸会不会被骂 → 这就是离相</text>
+  <line x1="300" y1="172" x2="420" y2="172" stroke="#B8860B" stroke-width="1"/>
+  <text x="360" y="190" text-anchor="middle" font-size="11" fill="#6B6560">不是"原谅他"，是"根本没这回事"——人缸两相忘</text>
+  <text x="360" y="208" text-anchor="middle" font-size="10" fill="#B8860B" font-weight="600">结果：砸缸救人 → 离相 + 慈悲 + 实事求是，三者圆融</text>
+</svg>

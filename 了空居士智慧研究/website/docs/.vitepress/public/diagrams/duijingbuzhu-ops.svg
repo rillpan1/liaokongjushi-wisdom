@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="Noto Serif SC, serif" font-size="14">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1A2332" flood-opacity="0.15"/>
+    </filter>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B8860B"/>
+      <stop offset="100%" stop-color="#D4A843"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#B8860B" opacity="0.7"/>
+    </marker>
+    <marker id="arrowR" markerWidth="8" markerHeight="6" refX="0" refY="3" orient="auto">
+      <path d="M8,0 L0,3 L8,6" fill="#B8860B" opacity="0.7"/>
+    </marker>
+  </defs>
+
+  <rect width="720" height="340" fill="#FAF7F2" rx="12"/>
+
+  <!-- Title -->
+  <text x="360" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#1A2332">对境不住 · 四步操作法</text>
+  <line x1="280" y1="36" x2="440" y2="36" stroke="#B8860B" stroke-width="2"/>
+
+  <!-- Step 1 觉察 -->
+  <rect x="20" y="52" width="160" height="56" rx="10" fill="#FFF8EE" stroke="url(#goldGrad)" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="100" y="74" text-anchor="middle" font-size="13" font-weight="700" fill="#1A2332">第一步 觉察</text>
+  <text x="100" y="92" text-anchor="middle" font-size="11" fill="#6B6560">知道"我在生气/焦虑"</text>
+  <text x="100" y="108" text-anchor="middle" font-size="10" fill="#B8860B">不怕念起</text>
+
+  <!-- Step 2 暂停 -->
+  <rect x="200" y="52" width="160" height="56" rx="10" fill="#FFF8EE" stroke="url(#goldGrad)" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="280" y="74" text-anchor="middle" font-size="13" font-weight="700" fill="#1A2332">第二步 暂停</text>
+  <text x="280" y="92" text-anchor="middle" font-size="11" fill="#6B6560">启动理智，问自己</text>
+  <text x="280" y="108" text-anchor="middle" font-size="10" fill="#1A2332">"我为什么不平静？"</text>
+
+  <!-- Step 3 观照 -->
+  <rect x="380" y="52" width="160" height="56" rx="10" fill="#FFF8EE" stroke="url(#goldGrad)" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="460" y="74" text-anchor="middle" font-size="13" font-weight="700" fill="#1A2332">第三步 观照</text>
+  <text x="460" y="92" text-anchor="middle" font-size="11" fill="#6B6560">像旁观者看河水</text>
+  <text x="460" y="108" text-anchor="middle" font-size="10" fill="#1A2332">心如明镜，不跳进去</text>
+
+  <!-- Step 4 放下 -->
+  <rect x="560" y="52" width="140" height="56" rx="10" fill="url(#goldGrad)" stroke="#B8860B" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="630" y="74" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">第四步 放下</text>
+  <text x="630" y="92" text-anchor="middle" font-size="11" fill="#FFF8EE">让它过去，不压不抓</text>
+  <text x="630" y="108" text-anchor="middle" font-size="10" fill="#FFF8EE">三心不可得</text>
+
+  <!-- Arrows 1→2→3→4 -->
+  <line x1="180" y1="80" x2="196" y2="80" stroke="#B8860B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="360" y1="80" x2="376" y2="80" stroke="#B8860B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="540" y1="80" x2="556" y2="80" stroke="#B8860B" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Divider -->
+  <line x1="20" y1="126" x2="700" y2="126" stroke="#E0D6C8" stroke-width="1"/>
+
+  <!-- Training vs Emergency -->
+  <rect x="20" y="138" width="660" height="24" rx="4" fill="#FFF8EE" stroke="#E0D6C8" stroke-width="0.8"/>
+  <text x="30" y="154" font-size="11" font-weight="600" fill="#B8860B">日常训练（预防）</text>
+  <text x="180" y="154" font-size="11" fill="#1A2332">心如明镜、定慧等持 → 每天找一件小事练观照</text>
+
+  <rect x="20" y="170" width="660" height="24" rx="4" fill="#FFF8EE" stroke="#E0D6C8" stroke-width="0.8"/>
+  <text x="30" y="186" font-size="11" font-weight="600" fill="#B8860B">紧急处置（补救）</text>
+  <text x="180" y="186" font-size="11" fill="#1A2332">不怕念起只怕觉迟 → 觉察失控=转机，不自我谴责</text>
+
+  <!-- Bottom stats -->
+  <rect x="20" y="206" width="660" height="120" rx="10" fill="#1A2332" opacity="0.06" stroke="#E0D6C8"/>
+  <text x="360" y="230" text-anchor="middle" font-size="13" font-weight="700" fill="#1A2332">检验标准</text>
+  <line x1="300" y1="236" x2="420" y2="236" stroke="#B8860B" stroke-width="1"/>
+
+  <text x="50" y="258" font-size="11" fill="#1A2332">初阶：遇到不顺，第一反应从"为什么是我"→"因缘是什么"</text>
+  <text x="50" y="276" font-size="11" fill="#1A2332">中阶：做决策自动考虑两方利益，不觉得"委屈自己"</text>
+  <text x="50" y="294" font-size="11" fill="#1A2332">高阶：慈悲自然流露——帮人不需要"想"，看到就去做了</text>
+
+  <!-- Golden accent dot -->
+  <circle cx="36" cy="250" r="3" fill="#B8860B"/>
+  <circle cx="36" cy="268" r="3" fill="#B8860B"/>
+  <circle cx="36" cy="286" r="3" fill="#B8860B"/>
+</svg>

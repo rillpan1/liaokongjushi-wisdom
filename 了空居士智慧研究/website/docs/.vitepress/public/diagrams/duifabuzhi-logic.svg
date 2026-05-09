@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" font-family="Noto Serif SC, serif" font-size="14">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1A2332" flood-opacity="0.15"/>
+    </filter>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B8860B"/>
+      <stop offset="100%" stop-color="#D4A843"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#B8860B" opacity="0.7"/>
+    </marker>
+  </defs>
+
+  <rect width="720" height="260" fill="#FAF7F2" rx="12"/>
+
+  <text x="360" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#1A2332">对法不执 · 模型内部逻辑</text>
+  <line x1="280" y1="36" x2="440" y2="36" stroke="#B8860B" stroke-width="2"/>
+
+  <!-- Center: 了空居士说 --->
+  <rect x="240" y="48" width="240" height="36" rx="8" fill="url(#goldGrad)" filter="url(#shadow)"/>
+  <text x="360" y="70" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">了空居士说：连佛法都要放下</text>
+
+  <!-- Arrow from center down -->
+  <line x1="360" y1="84" x2="360" y2="100" stroke="#B8860B" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Three branches -->
+  <!-- Left: 执着升起 -->
+  <rect x="20" y="100" width="200" height="48" rx="8" fill="#FFF8EE" stroke="#E0D6C8" stroke-width="1" filter="url(#shadow)"/>
+  <text x="120" y="122" text-anchor="middle" font-size="12" font-weight="600" fill="#1A2332">执着升起</text>
+  <text x="120" y="138" text-anchor="middle" font-size="10" fill="#6B6560">"我的方法才对"</text>
+
+  <!-- Center: 反问 -->
+  <rect x="260" y="100" width="200" height="48" rx="8" fill="#FFF8EE" stroke="url(#goldGrad)" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="360" y="122" text-anchor="middle" font-size="12" font-weight="600" fill="#1A2332">反问</text>
+  <text x="360" y="138" text-anchor="middle" font-size="10" fill="#1A2332">"这个执着本身，</text>
+  <text x="360" y="150" text-anchor="middle" font-size="10" fill="#1A2332">是不是也要放下？"</text>
+
+  <!-- Right: 放下 -->
+  <rect x="500" y="100" width="200" height="48" rx="8" fill="url(#goldGrad)" stroke="#B8860B" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="600" y="122" text-anchor="middle" font-size="12" font-weight="600" fill="#fff">放下</text>
+  <text x="600" y="138" text-anchor="middle" font-size="10" fill="#FFF8EE">回到当下该做的事</text>
+  <text x="600" y="150" text-anchor="middle" font-size="10" fill="#FFF8EE">该念佛就念佛，该助人就助人</text>
+
+  <!-- Arrow left→center -->
+  <line x1="220" y1="124" x2="256" y2="124" stroke="#B8860B" stroke-width="1.2" marker-end="url(#arrow)"/>
+  <!-- Arrow center→right -->
+  <line x1="460" y1="124" x2="496" y2="124" stroke="#B8860B" stroke-width="1.2" marker-end="url(#arrow)"/>
+
+  <!-- Bottom insight -->
+  <rect x="100" y="160" width="520" height="80" rx="10" fill="#1A2332" opacity="0.06" stroke="#E0D6C8"/>
+  <text x="360" y="184" text-anchor="middle" font-size="12" font-weight="700" fill="#1A2332">关键洞察</text>
+  <text x="360" y="202" text-anchor="middle" font-size="11" fill="#1A2332">病好了吗？没好→药继续吃，但别把药当饭吃</text>
+  <text x="360" y="220" text-anchor="middle" font-size="11" fill="#1A2332">法尚应舍 → 佛法、法门、境界，用过即放</text>
+  <text x="360" y="238" text-anchor="middle" font-size="11" fill="#B8860B" font-weight="600">执着于"不执着"，是最大的执着</text>
+</svg>

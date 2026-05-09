@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="Noto Serif SC, serif" font-size="14">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1A2332" flood-opacity="0.15"/>
+    </filter>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B8860B"/>
+      <stop offset="100%" stop-color="#D4A843"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#B8860B" opacity="0.7"/>
+    </marker>
+  </defs>
+
+  <rect width="720" height="380" fill="#FAF7F2" rx="12"/>
+
+  <text x="360" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#1A2332">性命双修 · 模型内部逻辑</text>
+  <line x1="280" y1="36" x2="440" y2="36" stroke="#B8860B" stroke-width="2"/>
+
+  <!-- Top: 轻轻返观中丹田 -->
+  <rect x="240" y="48" width="240" height="36" rx="8" fill="url(#goldGrad)" filter="url(#shadow)"/>
+  <text x="360" y="70" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">轻轻返观中丹田（这一个动作）</text>
+
+  <!-- arrow down -->
+  <line x1="360" y1="84" x2="360" y2="100" stroke="#B8860B" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Left branch: 性功 -->
+  <rect x="20" y="100" width="200" height="48" rx="8" fill="#FFF8EE" stroke="url(#goldGrad)" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="120" y="122" text-anchor="middle" font-size="12" font-weight="700" fill="#1A2332">从性功看</text>
+  <text x="120" y="140" text-anchor="middle" font-size="10" fill="#6B6560">培养觉照力→明心见性</text>
+
+  <!-- Right branch: 命功 -->
+  <rect x="500" y="100" width="200" height="48" rx="8" fill="#FFF8EE" stroke="url(#goldGrad)" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="600" y="122" text-anchor="middle" font-size="12" font-weight="700" fill="#1A2332">从命功看</text>
+  <text x="600" y="140" text-anchor="middle" font-size="10" fill="#6B6560">气机运转→修身炼形</text>
+
+  <!-- arrow: left→center -->
+  <line x1="220" y1="124" x2="240" y2="124" stroke="#B8860B" stroke-width="1.2"/>
+  <!-- arrow: right→center -->
+  <line x1="480" y1="124" x2="500" y2="124" stroke="#B8860B" stroke-width="1.2"/>
+
+  <!-- Center: 筑基 → 通大周天 → 十月怀胎 → 出阳神 → 还虚合道 -->
+  <rect x="180" y="156" width="360" height="24" rx="6" fill="#FFF8EE" stroke="#E0D6C8" stroke-width="1"/>
+  <text x="360" y="172" text-anchor="middle" font-size="11" fill="#1A2332">筑基 → 通小周天 → 通大周天 → 温养（中丹田功）→ 十月怀胎 → 出阳神 → 还虚合道</text>
+
+  <!-- arrow down -->
+  <line x1="360" y1="180" x2="360" y2="196" stroke="#B8860B" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Bottom: 天人合一 → 其他5模型 -->
+  <rect x="240" y="196" width="240" height="36" rx="8" fill="#FFF8EE" stroke="url(#goldGrad)" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="360" y="218" text-anchor="middle" font-size="12" font-weight="700" fill="#1A2332">天人合一（世界观）→ 还虚合道</text>
+
+  <!-- arrow down -->
+  <line x1="320" y1="232" x2="300" y2="248" stroke="#B8860B" stroke-width="1.2" marker-end="url(#arrow)"/>
+  <line x1="400" y1="232" x2="420" y2="248" stroke="#B8860B" stroke-width="1.2" marker-end="url(#arrow)"/>
+
+  <!-- 5 model boxes -->
+  <rect x="40" y="248" width="140" height="32" rx="6" fill="#FFF8EE" stroke="#E0D6C8" stroke-width="0.8"/>
+  <text x="110" y="268" text-anchor="middle" font-size="10" fill="#1A2332">对境不住（心法）</text>
+
+  <rect x="200" y="248" width="140" height="32" rx="6" fill="#FFF8EE" stroke="#E0D6C8" stroke-width="0.8"/>
+  <text x="270" y="268" text-anchor="middle" font-size="10" fill="#1A2332">对法不执（心法）</text>
+
+  <rect x="360" y="248" width="140" height="32" rx="6" fill="#FFF8EE" stroke="#E0D6C8" stroke-width="0.8"/>
+  <text x="430" y="268" text-anchor="middle" font-size="10" fill="#1A2332">自然务实（方法）</text>
+
+  <rect x="520" y="248" width="140" height="32" rx="6" fill="#FFF8EE" stroke="#E0D6C8" stroke-width="0.8"/>
+  <text x="590" y="268" text-anchor="middle" font-size="10" fill="#1A2332">圆融中和（处世）</text>
+
+  <!-- arrow from 圆融中和 to 历境炼心 -->
+  <line x1="590" y1="280" x2="590" y2="296" stroke="#B8860B" stroke-width="1.2" marker-end="url(#arrow)"/>
+
+  <rect x="520" y="296" width="140" height="32" rx="6" fill="url(#goldGrad)" filter="url(#shadow)"/>
+  <text x="590" y="316" text-anchor="middle" font-size="10" font-weight="600" fill="#fff">历境炼心（实践）</text>
+
+  <!-- bottom: 性命双修 兑现 -->
+  <rect x="200" y="340" width="320" height="32" rx="8" fill="#1A2332" opacity="0.08" stroke="#B8860B" stroke-width="1.2"/>
+  <text x="360" y="360" text-anchor="middle" font-size="12" font-weight="700" fill="#1A2332">性命双修 → 身心一体，全部兑现</text>
+</svg>
