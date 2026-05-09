@@ -23,6 +23,7 @@ export default defineConfig({
       { text: '学习路径', link: '/30-学习路径/' },
       { text: '金句', link: '/40-原话金句/' },
       { text: '概念', link: '/50-概念资料/' },
+      { text: 'AI 助手', link: '/ai-assistant' },
       { text: '关于', link: '/00-创始人/biography-了空居士' },
     ],
 
@@ -101,6 +102,7 @@ export default defineConfig({
           items: [
             { text: '了空居士简介', link: '/00-创始人/biography-了空居士' },
             { text: '独特贡献', link: '/00-创始人/contribution-独特贡献' },
+            { text: 'AI 助手', link: '/ai-assistant' },
           ],
         },
       ],
