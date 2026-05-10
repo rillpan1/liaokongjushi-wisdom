@@ -279,6 +279,9 @@ export default defineConfig({
       },
     },
 
+    outlineTitle: '在这页',
+    sidebarMenuLabel: '菜单',
+
     footer: {
       message: '基于了空居士 125 篇著述 · 由AI系统性结构化智慧体系 · 未经了空居士本人审核',
       copyright: '了空居士智慧宝库，明树制作',
