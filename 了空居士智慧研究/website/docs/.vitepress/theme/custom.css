@@ -89,6 +89,10 @@ hr { border: none; border-top: 1px solid var(--border); margin: 36px 0; }
 
 /* === Footer === */
 .VPFooter { border-top: 1px solid var(--border) !important; }
+
+/* === Fix dark block contrast === */
+.VPNavBarMenuLink { color: #e2e8f0 !important; font-size: 14px; }
+.VPNavBarMenuLink:hover, .VPNavBarMenuLink.active { color: #fff !important; }
 .VPDocFooter { border-top: 1px solid var(--border); }
 
 /* ======================================
@@ -483,7 +487,7 @@ hr { border: none; border-top: 1px solid var(--border); margin: 36px 0; }
 }
 .ai-tea-desc {
   font-size: 14px;
-  color: rgba(255,255,255,.68);
+  color: rgba(255,255,255,.85);
   line-height: 1.7;
   margin: 0 0 16px;
 }
@@ -516,21 +520,21 @@ hr { border: none; border-top: 1px solid var(--border); margin: 36px 0; }
 .ai-tea-chip {
   display: block;
   padding: 9px 18px;
-  background: rgba(255,255,255,.06);
-  border: 1px solid rgba(255,255,255,.1);
+  background: rgba(255,255,255,.1);
+  border: 1px solid rgba(255,255,255,.18);
   border-radius: 20px;
   font-size: 13px;
-  color: rgba(255,255,255,.6);
+  color: rgba(255,255,255,.85);
   white-space: nowrap;
   font-family: var(--serif);
   transition: all .2s;
   text-decoration: none !important;
 }
 .ai-tea-chip:hover {
-  background: rgba(255,255,255,.12);
+  background: rgba(255,255,255,.18);
   color: #fff;
   transform: translateX(5px);
-  border-color: rgba(255,255,255,.2);
+  border-color: rgba(255,255,255,.35);
 }
 
 /* --- Page Closing --- */
