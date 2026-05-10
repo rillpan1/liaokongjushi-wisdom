@@ -18,11 +18,11 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '核心模型', link: '/10-核心模型/' },
-      { text: '专题研究', link: '/20-专题研究/' },
-      { text: '学习路径', link: '/30-学习路径/' },
-      { text: '金句', link: '/40-原话金句/' },
-      { text: '概念', link: '/50-概念资料/' },
+      { text: '核心模型', link: '/10-核心模型/10-核心模型_INDEX' },
+      { text: '专题研究', link: '/20-专题研究/20-专题研究_INDEX' },
+      { text: '学习路径', link: '/30-学习路径/30-学习路径_INDEX' },
+      { text: '金句', link: '/40-原话金句/40-原话金句_INDEX' },
+      { text: '概念', link: '/50-概念资料/50-概念资料_INDEX' },
       { text: 'AI 助手', link: '/ai-assistant' },
       { text: '关于', link: '/00-创始人/biography-了空居士' },
     ],
@@ -31,6 +31,7 @@ export default defineConfig({
       '/': [
         {
           text: '核心模型',
+          collapsible: true, collapsed: true,
           items: [
             { text: '🌐 整体观（元方法）', link: '/10-核心模型/meta-整体观' },
             { text: '🌍 天人合一', link: '/10-核心模型/model-天人合一' },
@@ -44,6 +45,7 @@ export default defineConfig({
         },
         {
           text: '专题研究',
+          collapsible: true, collapsed: true,
           items: [
             { text: '如何面对焦虑', link: '/20-专题研究/topic-焦虑' },
             { text: '如何处理情绪', link: '/20-专题研究/topic-情绪' },
@@ -70,6 +72,7 @@ export default defineConfig({
         },
         {
           text: '学习路径',
+          collapsible: true, collapsed: true,
           items: [
             { text: '认知路径', link: '/30-学习路径/path-认知路径' },
             { text: '问题路径', link: '/30-学习路径/path-问题路径' },
@@ -78,6 +81,7 @@ export default defineConfig({
         },
         {
           text: '原话金句',
+          collapsible: true, collapsed: true,
           items: [
             { text: '金刚经', link: '/40-原话金句/quote-金刚经' },
             { text: '道德经', link: '/40-原话金句/quote-道德经' },
@@ -89,7 +93,7 @@ export default defineConfig({
         },
         {
           text: '概念资料',
-          collapsible: true,
+          collapsible: true, collapsed: true,
           items: [
             { text: '佛家', link: '/50-概念资料/dict-清净心' },
             { text: '道家', link: '/50-概念资料/dict-自然' },
@@ -99,6 +103,7 @@ export default defineConfig({
         },
         {
           text: '关于',
+          collapsible: true, collapsed: true,
           items: [
             { text: '了空居士简介', link: '/00-创始人/biography-了空居士' },
             { text: '独特贡献', link: '/00-创始人/contribution-独特贡献' },

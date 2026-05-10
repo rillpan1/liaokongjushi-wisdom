@@ -5,147 +5,135 @@ title: 首页
 
 <div class="home-hero">
   <div class="hero-eyebrow">了空居士智慧体系</div>
-  <h1>了空居士<span class="gold">智慧</span> <span class="hero-version">V 2.5</span></h1>
-  <p class="hero-sub">从原始著述到系统模型，每个概念都能溯源到原文。由AI梳理，未经了空居士本人审定</p>
+  <h1>了空居士<span class="gold">智慧</span></h1>
+  <span class="hero-version">V 2.5</span>
+  <p class="hero-sub">从原始著述到系统模型，每个概念都能溯源到原文。<br>由 AI 梳理，未经了空居士本人审定。</p>
   <p class="hero-author">— 明树</p>
 </div>
 
 <div class="home-section">
-
-<div class="feature-grid">
-  <a href="/10-核心模型/10-核心模型_INDEX" class="feature-card">
-    <span class="feature-icon">🧘</span>
-    <div class="feature-title">核心模型</div>
-    <div class="feature-desc">7 个心智模型，系统性认知框架</div>
-    <span class="feature-card-arrow">→</span>
-  </a>
-  <a href="/20-专题研究/20-专题研究_INDEX" class="feature-card">
-    <span class="feature-icon">🔍</span>
-    <div class="feature-title">专题研究</div>
-    <div class="feature-desc">13 个深度专题，组合模型解实际问题</div>
-    <span class="feature-card-arrow">→</span>
-  </a>
-  <a href="/30-学习路径/30-学习路径_INDEX" class="feature-card">
-    <span class="feature-icon">📖</span>
-    <div class="feature-title">学习路径</div>
-    <div class="feature-desc">3 条学习路线，循序渐进入门</div>
-    <span class="feature-card-arrow">→</span>
-  </a>
-  <a href="/40-原话金句/40-原话金句_INDEX" class="feature-card">
-    <span class="feature-icon">💬</span>
-    <div class="feature-title">原话金句</div>
-    <div class="feature-desc">5 类经典金句，保留原话感染力</div>
-    <span class="feature-card-arrow">→</span>
-  </a>
-</div>
+  <div class="feature-grid">
+    <a href="/10-核心模型/10-核心模型_INDEX" class="feature-card">
+      <span class="feature-count-num">7</span>
+      <span class="feature-icon">🧘</span>
+      <div class="feature-title">核心模型</div>
+      <div class="feature-desc">七个心智模型，构建系统性认知框架</div>
+    </a>
+    <a href="/20-专题研究/20-专题研究_INDEX" class="feature-card">
+      <span class="feature-count-num">21</span>
+      <span class="feature-icon">🔍</span>
+      <div class="feature-title">专题研究</div>
+      <div class="feature-desc">组合多个模型，解决具体生活问题</div>
+    </a>
+    <a href="/30-学习路径/30-学习路径_INDEX" class="feature-card">
+      <span class="feature-count-num">3</span>
+      <span class="feature-icon">📖</span>
+      <div class="feature-title">学习路径</div>
+      <div class="feature-desc">三条路线，循着你的节奏入门</div>
+    </a>
+    <a href="/40-原话金句/40-原话金句_INDEX" class="feature-card">
+      <span class="feature-count-num">5</span>
+      <span class="feature-icon">💬</span>
+      <div class="feature-title">原话金句</div>
+      <div class="feature-desc">以经典为师，保留原话感染力</div>
+    </a>
+  </div>
 </div>
 
 <div class="home-section">
 
-<div class="section-header">
-  <h2 class="section-title">核心心智模型</h2>
-  <div class="section-line"></div>
-  <span class="section-count">7+1</span>
-</div>
-<div class="tag-cloud">
-  <a href="/10-核心模型/meta-整体观" class="tag tier-special">🌐 整体观<span class="tag-desc">元方法</span></a>
-</div>
-<div class="tag-cloud" style="margin-top:10px">
-  <a href="/10-核心模型/model-天人合一" class="tag tier-1">天人合一<span class="tag-n">9</span></a>
-  <a href="/10-核心模型/model-对境不住" class="tag tier-1">对境不住<span class="tag-n">16</span></a>
-  <a href="/10-核心模型/model-对法不执" class="tag tier-1">对法不执<span class="tag-n">18</span></a>
-</div>
-<div class="tag-cloud" style="margin-top:10px">
-  <a href="/10-核心模型/model-自然务实" class="tag tier-2">自然务实<span class="tag-n">16</span></a>
-  <a href="/10-核心模型/model-圆融中和" class="tag tier-2">圆融中和<span class="tag-n">11</span></a>
-  <a href="/10-核心模型/model-历境炼心" class="tag tier-2">历境炼心<span class="tag-n">12</span></a>
-  <a href="/10-核心模型/model-性命双修" class="tag">性命双修<span class="tag-n">9</span></a>
-</div>
-</div>
-
-<div class="home-section">
-
-<div class="section-header">
-  <h2 class="section-title">核心概念</h2>
-  <div class="section-line"></div>
-  <span class="section-count">40</span>
-</div>
-
-<div class="concept-group">
-  <div class="concept-group-title">佛家</div>
-  <div class="tag-cloud">
-    <a href="/50-概念资料/dict-清净心" class="tag tier-1">清净心</a>
-    <a href="/50-概念资料/dict-我执" class="tag tier-1">我执</a>
-    <a href="/50-概念资料/dict-不二" class="tag tier-1">不二</a>
-    <a href="/50-概念资料/dict-法执" class="tag">法执</a>
-    <a href="/50-概念资料/dict-无明" class="tag">无明</a>
-    <a href="/50-概念资料/dict-烦恼" class="tag">烦恼</a>
-    <a href="/50-概念资料/dict-观照" class="tag">观照</a>
-    <a href="/50-概念资料/dict-止观" class="tag">止观</a>
-    <a href="/50-概念资料/dict-般若" class="tag">般若</a>
-    <a href="/50-概念资料/dict-菩提" class="tag">菩提</a>
-    <a href="/50-概念资料/dict-涅槃" class="tag">涅槃</a>
-    <a href="/50-概念资料/dict-顽空" class="tag">顽空</a>
+<div class="ai-tea-section">
+  <div class="ai-tea-content">
+    <span class="ai-tea-badge">AI 问答</span>
+    <h2 class="ai-tea-title">了空居士禅茶 <span class="ai-tea-beta">BETA</span></h2>
+    <p class="ai-tea-desc">修行路上有困惑？泡一杯茶，向了空居士的智慧请教。<br>每个回答都有知识库原文溯源。</p>
+    <a href="/ai-assistant" class="ai-tea-cta">开始对话 →</a>
   </div>
-</div>
-
-<div class="concept-group">
-  <div class="concept-group-title">道家</div>
-  <div class="tag-cloud">
-    <a href="/50-概念资料/dict-自然" class="tag tier-1">自然</a>
-    <a href="/50-概念资料/dict-无为" class="tag tier-1">无为</a>
-    <a href="/50-概念资料/dict-柔弱" class="tag">柔弱</a>
-    <a href="/50-概念资料/dict-守中" class="tag">守中</a>
-    <a href="/50-概念资料/dict-和光同尘" class="tag">和光同尘</a>
-    <a href="/50-概念资料/dict-道" class="tag">道</a>
-  </div>
-</div>
-
-<div class="concept-group">
-  <div class="concept-group-title">儒家</div>
-  <div class="tag-cloud">
-    <a href="/50-概念资料/dict-孝" class="tag">孝</a>
-    <a href="/50-概念资料/dict-敬" class="tag">敬</a>
-    <a href="/50-概念资料/dict-恕" class="tag">恕</a>
-    <a href="/50-概念资料/dict-处世" class="tag">处世</a>
-    <a href="/50-概念资料/dict-家庭道场" class="tag">家庭道场</a>
-    <a href="/50-概念资料/dict-礼" class="tag">礼</a>
-    <a href="/50-概念资料/dict-正" class="tag">正</a>
-    <a href="/50-概念资料/dict-义" class="tag">义</a>
-    <a href="/50-概念资料/dict-仁" class="tag">仁</a>
-    <a href="/50-概念资料/dict-平常心" class="tag">平常心</a>
-  </div>
-</div>
-
-<div class="concept-group">
-  <div class="concept-group-title">丹道</div>
-  <div class="tag-cloud">
-    <a href="/50-概念资料/dict-丹田" class="tag">丹田</a>
-    <a href="/50-概念资料/dict-任脉" class="tag">任脉</a>
-    <a href="/50-概念资料/dict-督脉" class="tag">督脉</a>
-    <a href="/50-概念资料/dict-小周天" class="tag">小周天</a>
-    <a href="/50-概念资料/dict-大周天" class="tag">大周天</a>
-    <a href="/50-概念资料/dict-炼精化气" class="tag">炼精化气</a>
-    <a href="/50-概念资料/dict-炼气化神" class="tag">炼气化神</a>
-    <a href="/50-概念资料/dict-炼神还虚" class="tag">炼神还虚</a>
-    <a href="/50-概念资料/dict-形神俱妙" class="tag">形神俱妙</a>
-  </div>
-</div>
-
-<div class="concept-group">
-  <div class="concept-group-title">其他</div>
-  <div class="tag-cloud">
-    <a href="/50-概念资料/dict-不住" class="tag">不住</a>
-    <a href="/50-概念资料/dict-中道" class="tag">中道</a>
+  <div class="ai-tea-aside">
+    <a href="/ai-assistant?q=什么是清净心" class="ai-tea-chip">什么是清净心？</a>
+    <a href="/ai-assistant?q=如何面对焦虑" class="ai-tea-chip">如何面对焦虑？</a>
+    <a href="/ai-assistant?q=怎么开始实修" class="ai-tea-chip">怎么开始实修？</a>
   </div>
 </div>
 
 </div>
 
 <div class="home-section">
-<a href="/30-学习路径/path-新手入门" class="dark-promo">
-  <div class="dark-promo-title">从何处开始？</div>
-  <div class="dark-promo-text">如果你是第一次接触了空居士的智慧体系，推荐从新手入门路径开始，循序渐进地理解七个心智模型及其在生活中的应用。</div>
-  <span class="dark-promo-cta">新手入门路径 →</span>
-</a>
+  <div class="section-header">
+    <h2 class="section-title">核心心智模型</h2>
+    <div class="section-line"></div>
+    <span class="section-count">7 + 1</span>
+  </div>
+  <div class="tag-cloud">
+    <a href="/10-核心模型/meta-整体观" class="tag tier-special">🌐 整体观<span class="tag-desc">元方法</span></a>
+    <a href="/10-核心模型/model-天人合一" class="tag tier-1">天人合一<span class="tag-n">9</span></a>
+    <a href="/10-核心模型/model-对境不住" class="tag tier-1">对境不住<span class="tag-n">16</span></a>
+    <a href="/10-核心模型/model-对法不执" class="tag tier-1">对法不执<span class="tag-n">18</span></a>
+    <a href="/10-核心模型/model-自然务实" class="tag tier-2">自然务实<span class="tag-n">16</span></a>
+    <a href="/10-核心模型/model-圆融中和" class="tag tier-2">圆融中和<span class="tag-n">11</span></a>
+    <a href="/10-核心模型/model-历境炼心" class="tag tier-2">历境炼心<span class="tag-n">12</span></a>
+    <a href="/10-核心模型/model-性命双修" class="tag">性命双修<span class="tag-n">9</span></a>
+  </div>
+</div>
+
+<div class="home-section">
+  <div class="section-header">
+    <h2 class="section-title">核心概念</h2>
+    <div class="section-line"></div>
+    <span class="section-count">41</span>
+  </div>
+
+  <div class="concept-groups">
+    <div class="concept-group">
+      <a href="/50-概念资料/50-概念资料_INDEX#佛家概念-12个" class="concept-group-title">佛家 <span class="concept-group-n">13</span></a>
+      <div class="tag-cloud">
+        <a href="/50-概念资料/dict-清净心" class="tag tag-subtle tag-em">清净心</a>
+        <a href="/50-概念资料/dict-我执" class="tag tag-subtle tag-em">我执</a>
+        <a href="/50-概念资料/dict-不二" class="tag tag-subtle tag-em">不二</a>
+        <a href="/50-概念资料/dict-般若" class="tag tag-subtle tag-em">般若</a>
+        <a href="/50-概念资料/50-概念资料_INDEX#佛家概念-12个" class="tag tag-subtle tag-more">等 9 个 →</a>
+      </div>
+    </div>
+    <div class="concept-group">
+      <a href="/50-概念资料/50-概念资料_INDEX#道家概念-6个" class="concept-group-title">道家 <span class="concept-group-n">6</span></a>
+      <div class="tag-cloud">
+        <a href="/50-概念资料/dict-自然" class="tag tag-subtle tag-em">自然</a>
+        <a href="/50-概念资料/dict-无为" class="tag tag-subtle tag-em">无为</a>
+        <a href="/50-概念资料/dict-道" class="tag tag-subtle tag-em">道</a>
+        <a href="/50-概念资料/50-概念资料_INDEX#道家概念-6个" class="tag tag-subtle tag-more">等 3 个 →</a>
+      </div>
+    </div>
+    <div class="concept-group">
+      <a href="/50-概念资料/50-概念资料_INDEX#儒家概念-10个" class="concept-group-title">儒家 <span class="concept-group-n">10</span></a>
+      <div class="tag-cloud">
+        <a href="/50-概念资料/dict-仁" class="tag tag-subtle tag-em">仁</a>
+        <a href="/50-概念资料/dict-义" class="tag tag-subtle tag-em">义</a>
+        <a href="/50-概念资料/dict-礼" class="tag tag-subtle tag-em">礼</a>
+        <a href="/50-概念资料/dict-孝" class="tag tag-subtle tag-em">孝</a>
+        <a href="/50-概念资料/50-概念资料_INDEX#儒家概念-10个" class="tag tag-subtle tag-more">等 6 个 →</a>
+      </div>
+    </div>
+    <div class="concept-group">
+      <a href="/50-概念资料/50-概念资料_INDEX#丹道概念-9个" class="concept-group-title">丹道 <span class="concept-group-n">9</span></a>
+      <div class="tag-cloud">
+        <a href="/50-概念资料/dict-丹田" class="tag tag-subtle tag-em">丹田</a>
+        <a href="/50-概念资料/dict-小周天" class="tag tag-subtle tag-em">小周天</a>
+        <a href="/50-概念资料/dict-大周天" class="tag tag-subtle tag-em">大周天</a>
+        <a href="/50-概念资料/dict-炼神还虚" class="tag tag-subtle tag-em">炼神还虚</a>
+        <a href="/50-概念资料/50-概念资料_INDEX#丹道概念-9个" class="tag tag-subtle tag-more">等 5 个 →</a>
+      </div>
+    </div>
+    <div class="concept-group">
+      <a href="/50-概念资料/50-概念资料_INDEX#通用概念-3个" class="concept-group-title">其他 <span class="concept-group-n">2</span></a>
+      <div class="tag-cloud">
+        <a href="/50-概念资料/dict-不住" class="tag tag-subtle tag-em">不住</a>
+        <a href="/50-概念资料/dict-中道" class="tag tag-subtle tag-em">中道</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="page-closing">
+  <div class="closing-line"></div>
+  <span class="closing-text">了空居士智慧宝库 · 明树制作</span>
 </div>

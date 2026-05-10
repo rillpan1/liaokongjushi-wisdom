@@ -31,6 +31,28 @@
         </div>
       </div>
 
+      <!-- Admin panel -->
+      <div v-if="isAdmin" class="admin-panel">
+        <button class="admin-toggle" @click="showAdmin = !showAdmin">
+          ⚙ 管理 {{ showAdmin ? '▲' : '▼' }}
+        </button>
+        <div v-if="showAdmin" class="admin-body">
+          <form @submit.prevent="createAccount" class="admin-form">
+            <input v-model="newUser" placeholder="新用户名" />
+            <input v-model="newPass" type="password" placeholder="新密码" />
+            <button type="submit" :disabled="creating">{{ creating ? '...' : '创建用户' }}</button>
+          </form>
+          <p v-if="adminMsg" class="admin-msg">{{ adminMsg }}</p>
+          <div v-if="userList.length" class="admin-user-list">
+            <div v-for="u in userList" :key="u.username" class="admin-user-row">
+              <span>{{ u.username }}</span>
+              <span class="admin-user-date">{{ u.created_at }}</span>
+            </div>
+          </div>
+          <button @click="loadUsers" class="admin-load-btn">刷新用户列表</button>
+        </div>
+      </div>
+
       <div class="chat-messages" ref="msgContainer">
         <div v-if="messages.length === 0" class="welcome-msg">
           <div class="welcome-icon">🧘</div>
@@ -92,6 +114,13 @@ const input = ref('')
 const streaming = ref(false)
 const streamingContent = ref('')
 const msgContainer = ref(null)
+const isAdmin = ref(false)
+const showAdmin = ref(false)
+const newUser = ref('')
+const newPass = ref('')
+const creating = ref(false)
+const adminMsg = ref('')
+const userList = ref([])
 
 function scrollToBottom() {
   nextTick(() => {
@@ -123,6 +152,14 @@ onMounted(() => {
       .then((r) => {
         if (r.ok) {
           authenticated.value = true
+          if (displayName.value === 'admin' || savedUser === 'admin') isAdmin.value = true
+          // Check for pre-filled query from URL
+          const params = new URLSearchParams(window.location.search)
+          const q = params.get('q')
+          if (q) {
+            input.value = q
+            nextTick(() => send())
+          }
         } else {
           localStorage.removeItem('ai_token')
           localStorage.removeItem('ai_username')
@@ -132,6 +169,13 @@ onMounted(() => {
         localStorage.removeItem('ai_token')
         localStorage.removeItem('ai_username')
       })
+  } else {
+    // Even without token, check for pre-filled query to use after login
+    const params = new URLSearchParams(window.location.search)
+    const q = params.get('q')
+    if (q) {
+      input.value = q
+    }
   }
 })
 
@@ -157,6 +201,7 @@ async function login() {
     localStorage.setItem('ai_token', data.token)
     localStorage.setItem('ai_username', data.username)
     authenticated.value = true
+    isAdmin.value = data.username === 'admin'
   } catch {
     loginError.value = '连接服务器失败，请稍后再试'
   } finally {
@@ -172,6 +217,47 @@ function logout() {
   token.value = ''
   messages.value = []
   streamingContent.value = ''
+  isAdmin.value = false
+  showAdmin.value = false
+  userList.value = []
+}
+
+async function loadUsers() {
+  try {
+    const r = await fetch(`${API}/admin/users`, {
+      headers: { Authorization: `Bearer ${token.value}` },
+    })
+    if (r.ok) userList.value = await r.json()
+  } catch { /* ignore */ }
+}
+
+async function createAccount() {
+  if (!newUser.value.trim() || !newPass.value.trim()) return
+  creating.value = true
+  adminMsg.value = ''
+  try {
+    const r = await fetch(`${API}/admin/users`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${token.value}`,
+      },
+      body: JSON.stringify({ username: newUser.value, password: newPass.value }),
+    })
+    if (r.ok) {
+      adminMsg.value = `用户 "${newUser.value}" 创建成功`
+      newUser.value = ''
+      newPass.value = ''
+      loadUsers()
+    } else {
+      const data = await r.json()
+      adminMsg.value = data.detail || '创建失败'
+    }
+  } catch {
+    adminMsg.value = '请求失败'
+  } finally {
+    creating.value = false
+  }
 }
 
 async function send() {
@@ -502,6 +588,76 @@ async function send() {
 }
 .chat-input-bar button:hover { background: #9A7209; }
 .chat-input-bar button:disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* Admin panel */
+.admin-panel {
+  border-bottom: 1px solid rgba(255,255,255,.1);
+  background: rgba(0,0,0,.15);
+}
+.admin-toggle {
+  width: 100%;
+  padding: 8px 20px;
+  background: transparent;
+  border: none;
+  color: rgba(255,255,255,.6);
+  cursor: pointer;
+  font-size: 12px;
+  text-align: left;
+  transition: color .2s;
+}
+.admin-toggle:hover { color: #fff }
+.admin-body {
+  padding: 0 20px 14px;
+}
+.admin-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.admin-form input {
+  flex: 1;
+  padding: 6px 10px;
+  border: 1px solid rgba(255,255,255,.15);
+  border-radius: 6px;
+  background: rgba(255,255,255,.08);
+  color: #fff;
+  font-size: 13px;
+}
+.admin-form input:focus { outline: none; border-color: var(--gold) }
+.admin-form input::placeholder { color: rgba(255,255,255,.35) }
+.admin-form button {
+  padding: 6px 14px;
+  background: var(--gold);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.admin-form button:hover { background: #9A7209 }
+.admin-msg { font-size: 12px; color: rgba(255,255,255,.6); margin: 0 0 8px }
+.admin-user-list { margin-bottom: 8px }
+.admin-user-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 0;
+  font-size: 12px;
+  color: rgba(255,255,255,.55);
+  border-bottom: 1px solid rgba(255,255,255,.06);
+}
+.admin-user-date { font-size: 11px; opacity: .6 }
+.admin-load-btn {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,.15);
+  color: rgba(255,255,255,.5);
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 11px;
+  cursor: pointer;
+}
+.admin-load-btn:hover { border-color: rgba(255,255,255,.3); color: #fff }
 
 /* Mobile */
 @media (max-width: 640px) {
