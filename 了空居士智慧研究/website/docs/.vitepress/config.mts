@@ -279,7 +279,7 @@ export default defineConfig({
       },
     },
 
-    outlineTitle: '在这页',
+    outline: { label: '在这页', level: [2, 3] },
     sidebarMenuLabel: '菜单',
 
     footer: {
