@@ -7,7 +7,7 @@ title: 首页
   <div class="hero-eyebrow">了空居士智慧体系</div>
   <h1>了空居士<span class="gold">智慧</span></h1>
   <span class="hero-version">V 2.5</span>
-  <p class="hero-sub">从原始著述到系统模型，每个概念都能溯源到原文。<br>由 AI 梳理，未经了空居士本人审定。</p>
+  <p class="hero-sub">125 篇原始著述 · 35 万字结构化整理 · 1,154 个交叉链接<br>8 个核心模型 · 21 个专题研究 · 41 个核心概念<br>每个概念溯源到原文，每条金句标注出处。由 AI 梳理，未经了空居士本人审定。</p>
   <p class="hero-author">— 明树</p>
 </div>
 
